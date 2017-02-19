@@ -1,0 +1,70 @@
+/*element*/
+body {
+	background-color: #d1c2cd;
+	color: black;
+}
+button{
+	background-color: #7c4f70;
+	width:100px;
+	font-size: 20px;
+	border-radius:20px;
+	display: inline-block;
+	height:80px;
+}
+button:hover{
+	background-color: #5f3453;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+
+li a {
+    display: block;
+}
+span{
+	font-size:20px;
+}
+
+
+/*class*/
+.content{
+	 width: 1280px;
+	 margin: auto;
+}
+.image{
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 500px;
+	margin-top: 20px;
+	background-color: black;
+	text-shadow: 2px 2px 8px #000000;
+}
+
+/*id*/
+#blurb{
+	background-image: url('img/london.jpg');
+}
+#info {
+	font-size: 40px;
+	color:white;
+	text-align: center;
+	vertical-align: middle;
+	padding: 100px 50px 50px 50px;
+}
+#andrewImg{
+	background-image: url('img/andrew.jpg');
+}
+#janeImg{
+	background-image: url('img/jane.jpg');
+}
+#michaelImg{
+	background-image: url('img/michael.jpg');
+}
+#maryImg{
+	background-image: url('img/mary.jpg');
+}
+#bertImg{
+	background-image: url('img/bert.jpg');
+}
